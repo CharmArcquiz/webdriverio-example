@@ -1,0 +1,18 @@
+@import '~bulma/sass/utilities/all';
+@import '~bulma/sass/form/all';
+
+.error {
+  .label {
+    .error-msg {
+      color: $red;
+    }
+  }
+
+  .input {
+    border: 1px solid $red;
+
+    &:hover {
+      border-color: $red;
+    }
+  }
+}

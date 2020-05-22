@@ -1,0 +1,9 @@
+@import '~bulma/sass/utilities/all';
+@import '~bulma/sass/elements/button';
+
+.demo-form {
+  border: 1px solid $grey-lighter;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px $grey-lightest;
+}
